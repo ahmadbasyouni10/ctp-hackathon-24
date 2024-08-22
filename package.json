@@ -1,0 +1,17 @@
+{
+  "name": "ctp-hackathon-24",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.30",
+    "@langchain/openai": "^0.2.7",
+    "axios": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "langchain": "^0.2.16",
+    "mongodb": "^5.7.0"
+  }
+}
