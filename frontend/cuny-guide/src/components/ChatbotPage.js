@@ -38,30 +38,34 @@ function ChatbotPage() {
     <Flex height="calc(100vh - 68px)" bg={bgColor}>
       <VStack width="250px" p={4} spacing={4} alignItems="stretch" borderRight="1px solid" borderColor="gray.700">
         <Heading as="h2" size="lg" color={textColor}>Hello Ahmad, 👋</Heading>
-        <Text color="gray.400">You've completed all career related milestones! 🎉</Text>
         <Button onClick={startNewChat} colorScheme="blue">
           Start new chat
         </Button>
       </VStack>
       <Box flex={1}>
         <Heading as="h2" size="lg" p={4} color={textColor} borderBottom="1px solid" borderColor="gray.700">
-          Advisor
+          Guide
         </Heading>
         <Box height="calc(100% - 140px)" overflowY="auto" p={4}>
           {messages.map((message, index) => (
             <Flex key={index} justifyContent={message.sender === 'user' ? 'flex-end' : 'flex-start'} mb={4}>
               <Box
                 bg={message.sender === 'user' ? secondaryColor : primaryColor}
-                color={textColor}
                 p={3}
                 borderRadius="lg"
                 maxWidth="70%"
                 boxShadow="md"
               >
                 {message.sender === 'bot' ? (
-                  <TypingText text={message.text} />
+                  <TypingText text={message.text} color="black" />
                 ) : (
-                  <Text>{message.text}</Text>
+                  <Text
+                    color="black"
+                    fontWeight="semibold"
+                    fontSize="md"
+                  >
+                    {message.text}
+                  </Text>
                 )}
               </Box>
             </Flex>
