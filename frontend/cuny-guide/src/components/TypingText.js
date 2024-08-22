@@ -15,7 +15,7 @@ function TypingText({ text = '', color = "black" }) {
       } else {
         clearInterval(typingInterval);
       }
-    }, 50);
+    }, 30);
 
     return () => clearInterval(typingInterval);
   }, [text]);
