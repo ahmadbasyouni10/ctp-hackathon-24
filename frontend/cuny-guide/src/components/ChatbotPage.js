@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom'; // Add this import
 import { Box, Button, Input, VStack, Text, Flex, Heading, useColorModeValue } from '@chakra-ui/react';
-import { useLocation } from 'react-router-dom';
+import axios from 'axios';
 import TypingText from './TypingText';
 
 function ChatbotPage() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const location = useLocation();
   const selectedSchool = location.state?.school || 'CUNY';
 
@@ -20,13 +22,32 @@ function ChatbotPage() {
     setMessages([{ text: `Welcome to the ${selectedSchool} guide! How can I assist you today?`, sender: 'bot' }]);
   }, [selectedSchool]);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (input.trim()) {
-      setMessages([...messages, { text: input, sender: 'user' }]);
-      setTimeout(() => {
-        setMessages(msgs => [...msgs, { text: `You asked about ${input} for ${selectedSchool}. Here's some information...`, sender: 'bot' }]);
-      }, 1000);
+      setIsLoading(true);
+      const userMessage = { text: input, sender: 'user' };
+      setMessages(prevMessages => [...prevMessages, userMessage]);
       setInput('');
+
+      try {
+        const response = await axios.post('/api/chat', {
+            messages: [...messages, userMessage].map(m => ({ role: m.sender === 'user' ? 'user' : 'assistant', content: m.text })),
+            school: selectedSchool,
+        });
+
+        setMessages(prevMessages => [
+            ...prevMessages,
+            { text: response.data.text || 'No response', sender: 'bot' },
+          ]);
+      } catch (error) {
+        console.error('Error sending message:', error);
+        setMessages(prevMessages => [
+          ...prevMessages,
+          { text: "Sorry, I encountered an error. Please try again.", sender: 'bot' },
+        ]);
+      } finally {
+        setIsLoading(false);
+      }
     }
   };
 
@@ -44,7 +65,7 @@ function ChatbotPage() {
       </VStack>
       <Box flex={1}>
         <Heading as="h2" size="lg" p={4} color={textColor} borderBottom="1px solid" borderColor="gray.700">
-          Guide
+          {selectedSchool ? `${selectedSchool.toUpperCase()} Guide` : 'Select a School'}
         </Heading>
         <Box height="calc(100% - 140px)" overflowY="auto" p={4}>
           {messages.map((message, index) => (
@@ -82,8 +103,15 @@ function ChatbotPage() {
               color={textColor}
               _placeholder={{ color: 'gray.500' }}
               borderColor="gray.600"
+              isDisabled={isLoading}
             />
-            <Button onClick={handleSend} colorScheme="blue">
+            <Button 
+              onClick={handleSend} 
+              colorScheme="blue"
+              isLoading={isLoading}
+              loadingText="Sending..."
+              isDisabled={!input.trim()}
+            >
               Send
             </Button>
           </Flex>

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Text } from '@chakra-ui/react';
 
-function TypingText({ text, color = "black" }) {
+function TypingText({ text = '', color = "black" }) {
   const [displayedText, setDisplayedText] = useState('');
 
   useEffect(() => {
+    if (!text) return; // Add this check
+
     let i = 0;
     const typingInterval = setInterval(() => {
       if (i < text.length) {
