@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 
 
 
-mongo_client = pymongo.MongoClient("mongodb+srv://ahmadbasyouni2004:AwA1hwl26zgST9oJ@cluster0.txn7r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongo_client = pymongo.MongoClient(os.getenv("MONGO_URI"))
 db = mongo_client.sample_mflix
 collection = db.embedded_movies
 
