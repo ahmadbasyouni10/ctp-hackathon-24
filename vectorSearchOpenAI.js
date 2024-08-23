@@ -53,14 +53,23 @@ async function vectorSearchOpenAI(question) {
     ];
 
     // run pipeline
-    const result = col.aggregate(pipeline);
+    const results = await col.aggregate(pipeline).toArray();
+    const documents = [];
 
-    console.log(question);
+    // why do we need this step to return the results? When I remove this step, its a bunch of meta data. - Daniel
+    await results.forEach((doc) => {
+      const docString = JSON.stringify(doc);
+      // console.dir(docString);
+      documents.push(doc);
+    });
 
-    await result.forEach((doc) => console.dir(JSON.stringify(doc)));
+    return documents;
+  } catch (error) {
+    console.error("Error fetching filtered schools:", error);
+    throw error;
   } finally {
     await client.close();
   }
 }
 
-vectorSearchOpenAI("Who is the President of CCNY?").catch(console.dir);
+export default vectorSearchOpenAI;
