@@ -13,10 +13,6 @@ async function createEmbeddings(text) {
     input: text,
     encoding_format: "float",
   });
-
-  console.log(embedding.data);
 }
-
-createEmbeddings("Your text string goes here");
 
 export default createEmbeddings;

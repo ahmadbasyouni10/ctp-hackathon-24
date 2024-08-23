@@ -5,7 +5,7 @@ dotenv.config();
 
 const uri = process.env.MONGO_URI;
 
-async function connectToMongoDB() {
+export async function connectToMongoDB() {
   const client = new MongoClient(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -16,19 +16,9 @@ async function connectToMongoDB() {
   try {
     await client.connect();
     console.log("Connected successfully to MongoDB");
-
-    const database = client.db("sample_mflix");
-    const movies = database.collection("movies");
-    // Query for a movie that has the title 'Back to the Future'
-    const query = { title: "Back to the Future" };
-    const movie = await movies.findOne(query);
-    console.log(movie);
+    return client;
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
-  } finally {
-    await client.close();
-    console.log("Connection to MongoDB closed");
+    throw error;
   }
 }
-
-connectToMongoDB().catch(console.error);
