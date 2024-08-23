@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "workspaces": [
+    "frontend/*"
+  ],
   "dependencies": {
     "@langchain/community": "^0.2.30",
     "@langchain/openai": "^0.2.7",
