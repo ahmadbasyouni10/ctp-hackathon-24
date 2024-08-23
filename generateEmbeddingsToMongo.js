@@ -9,6 +9,7 @@ import path from "path";
  * @property {string} answer - The answer to the question.
  * @property {string[]} tags - Tags related to the question and answer.
  * @property {string} context - Additional context for the question and answer.
+ * @property {string} school - The school associated with the question and answer.
  */
 
 /** @type {Data[]} */
@@ -47,7 +48,7 @@ async function generateEmbeddingsToMongo() {
       // Add the embedding to the original object
       const documentWithEmbedding = {
         ...item,
-        embedding: embedding,
+        plot_embedding: embedding,
       };
 
       documentsToInsert.push(documentWithEmbedding);

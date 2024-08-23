@@ -3,48 +3,56 @@
     "question": "Where is The City College of New York (CCNY) located?",
     "answer": "160 Convent Ave, New York, NY 10031, United States",
     "tags": ["location", "address", "campus"],
-    "context": "The City College of New York (CCNY) is located in the Hamilton Heights neighborhood of Harlem in Manhattan, New York City. The main campus is situated on a hill overlooking Harlem, bounded by St. Nicholas Terrace to the west, St. Nicholas Avenue to the east, and 140th Street to the south, with the original campus bounded by Hamilton Place to the west, Convent Avenue to the east, and 140th Street to the south. The college was originally founded on the present site of Townsend Harris High School in 1847, and moved to its current location in 1907."
+    "context": "The City College of New York (CCNY) is located in the Hamilton Heights neighborhood of Harlem in Manhattan, New York City. The main campus is situated on a hill overlooking Harlem, bounded by St. Nicholas Terrace to the west, St. Nicholas Avenue to the east, and 140th Street to the south, with the original campus bounded by Hamilton Place to the west, Convent Avenue to the east, and 140th Street to the south. The college was originally founded on the present site of Townsend Harris High School in 1847, and moved to its current location in 1907.",
+    "school": "CCNY"
   },
   {
     "question": "How old is The City College of New York (CCNY)?",
     "answer": "The City College of New York (CCNY) was established in 1847.",
     "tags": ["age", "established", "founded", "year"],
-    "context": "The City College of New York (CCNY) was established in 1847 as the Free Academy of the City of New York, which was the first free public institution of higher education in the United States. It was later renamed the College of the City of New York in 1866, and then The City College of New York in 1929."
+    "context": "The City College of New York (CCNY) was established in 1847 as the Free Academy of the City of New York, which was the first free public institution of higher education in the United States. It was later renamed the College of the City of New York in 1866, and then The City College of New York in 1929.",
+    "school": "CCNY"
   },
   {
     "question": "Who is the current president of The City College of New York (CCNY)?",
     "answer": "Vincent Boudreau",
     "tags": ["president", "leader", "administration"],
-    "context": "Vincent Boudreau was appointed president of The City College of New York by the Board of Trustees of The City University of New York on December 4, 2017. Prior to that, he served as the founding dean of the Colin Powell School for Civic and Global Leadership at CCNY from 2013 through 2016. From 2002 through 2013, he served as the founding director of the Colin Powell School for Civic and Global Leadership at CCNY, was a professor of political science at City College, and a member of the City University of New York graduate faculty."
+    "context": "Vincent Boudreau was appointed president of The City College of New York by the Board of Trustees of The City University of New York on December 4, 2017. Prior to that, he served as the founding dean of the Colin Powell School for Civic and Global Leadership at CCNY from 2013 through 2016. From 2002 through 2013, he served as the founding director of the Colin Powell School for Civic and Global Leadership at CCNY, was a professor of political science at City College, and a member of the City University of New York graduate faculty.",
+    "school": "CCNY"
   },
   {
     "question": "What is the mascot of The City College of New York (CCNY)?",
     "answer": "Benny the Beaver",
     "tags": ["mascot", "symbol", "identity"],
-    "context": "The mascot of The City College of New York (CCNY) is Benny the Beaver. The beaver was chosen as the mascot in 1914, and has been a symbol of the college ever since. The beaver was selected as the mascot because of its industrious nature and its association with the city of New York, which was built on the hard work of its residents."
+    "context": "The mascot of The City College of New York (CCNY) is Benny the Beaver. The beaver was chosen as the mascot in 1914, and has been a symbol of the college ever since. The beaver was selected as the mascot because of its industrious nature and its association with the city of New York, which was built on the hard work of its residents.",
+    "school": "CCNY"
   },
   {
     "question": "I am facing food insecurity. Where can I find resources for food assistance at The City College of New York (CCNY)?",
     "answer": "Benny's Food Pantry is open from Monday through Friday 10 AM to 4 PM located in the Hoffman Lounge within the NAC building",
     "tags": ["no money", "hungry", "food pantry", "resources"],
-    "context": "Benny's Food Pantry was first launched in 2017, in a small shared office space in the Colin Powell School. We were inspired by the opening of the UCLA Food Pantry and the wonderful work they were doing for their student communities. In 2019, we moved to a new, larger space in the Hoffman Lounge area of the North Academic Complex (NAC) and renamed the pantry \"Benny's\" as a way to anchor the tradition of our pantry to the founding mission of our college to \"open the doors to all.\"Due to Covid-19's impact on our community-at-large, Benny's Food Pantry was able to expand to be a resource open to anyone in the City University of New York community - meaning if you're a student, a member of our staff, or on faculty at a college within the CUNY system, you are welcome to visit Benny's whenever you or someone you care for is in need. We want to serve as a resource to anyone who finds themselves in need throughout the year. In addition to providing food assistance, Benny's Pantry is a gateway to connect students and their families, faculty, and staff to critical support services such as: SNAP benefits; Emergency grants through referrals to the Colin Powell School (for CPS Majors), OIAC, or Student Affairs, depending on the type of need; Emergency housing referrals; Job preparation and training through referrals to our CPDI team; Health workshops and nutrition training, co-sponsored as part of our World Food Day Initiatives and food pantry demo days throughout the year"
+    "context": "Benny's Food Pantry was first launched in 2017, in a small shared office space in the Colin Powell School. We were inspired by the opening of the UCLA Food Pantry and the wonderful work they were doing for their student communities. In 2019, we moved to a new, larger space in the Hoffman Lounge area of the North Academic Complex (NAC) and renamed the pantry \"Benny's\" as a way to anchor the tradition of our pantry to the founding mission of our college to \"open the doors to all.\"Due to Covid-19's impact on our community-at-large, Benny's Food Pantry was able to expand to be a resource open to anyone in the City University of New York community - meaning if you're a student, a member of our staff, or on faculty at a college within the CUNY system, you are welcome to visit Benny's whenever you or someone you care for is in need. We want to serve as a resource to anyone who finds themselves in need throughout the year. In addition to providing food assistance, Benny's Pantry is a gateway to connect students and their families, faculty, and staff to critical support services such as: SNAP benefits; Emergency grants through referrals to the Colin Powell School (for CPS Majors), OIAC, or Student Affairs, depending on the type of need; Emergency housing referrals; Job preparation and training through referrals to our CPDI team; Health workshops and nutrition training, co-sponsored as part of our World Food Day Initiatives and food pantry demo days throughout the year",
+    "school": "CCNY"
   },
   {
     "question": "I dont feel so well. Where can I find health services at The City College of New York (CCNY)?",
     "answer": "The Student Health Services (SHS) is located in the Marshak Science Building, Room J15. Hours of Operation: Monday - Friday, 9 am - 5 pm",
     "tags": [],
-    "context": "Student Health Services (SHS) is committed to providing quality care and empowering students to make informed decisions about their health. Clinical services provided by Registered Nurses are free and confidential for all currently enrolled CCNY students. Health and Wellness Services is committed to helping students with questions and concerns regarding health issues, health insurance enrollment, immunization requirements, referrals, etc. If you need to speak to a nurse, don't hesitate to get in touch with us at 212.650.8222 or email us at shs@ccny.cuny.edu"
+    "context": "Student Health Services (SHS) is committed to providing quality care and empowering students to make informed decisions about their health. Clinical services provided by Registered Nurses are free and confidential for all currently enrolled CCNY students. Health and Wellness Services is committed to helping students with questions and concerns regarding health issues, health insurance enrollment, immunization requirements, referrals, etc. If you need to speak to a nurse, don't hesitate to get in touch with us at 212.650.8222 or email us at shs@ccny.cuny.edu",
+    "school": "CCNY"
   },
   {
     "question": "I am struggling mentally and emotionally. Where can I find mental health services at The City College of New York (CCNY)?",
     "answer": "The Counseling Center is located in the NAC building, Room 1/218. Hours of Operation: Monday - Friday, 9 am - 5 pm",
     "tags": ["mental health", "counseling", "therapy", "emotional support"],
-    "context": "The Counseling Center at The City College of New York (CCNY) provides a range of mental health services to support students in their personal, academic, and professional development. The center offers individual counseling, group counseling, workshops, and outreach programs to help students navigate the challenges of college life. The counselors at the center are licensed mental health professionals who are trained to address a variety of concerns, including stress, anxiety, depression, relationship issues, and more. The center is committed to providing a safe and supportive environment where students can explore their thoughts and feelings, develop coping strategies, and work towards their personal goals. If you are struggling with mental health issues, don't hesitate to reach out to the Counseling Center for support."
+    "context": "The Counseling Center at The City College of New York (CCNY) provides a range of mental health services to support students in their personal, academic, and professional development. The center offers individual counseling, group counseling, workshops, and outreach programs to help students navigate the challenges of college life. The counselors at the center are licensed mental health professionals who are trained to address a variety of concerns, including stress, anxiety, depression, relationship issues, and more. The center is committed to providing a safe and supportive environment where students can explore their thoughts and feelings, develop coping strategies, and work towards their personal goals. If you are struggling with mental health issues, don't hesitate to reach out to the Counseling Center for support.",
+    "school": "CCNY"
   },
   {
     "question": "Where is the math department located at The City College of New York (CCNY)?",
     "answer": "The Mathematics Department at The City College of New York (CCNY) is located in the Marshak Science Building, Room 529. Hours of Operation: Monday - Friday, 9 am - 5 pm",
     "tags": ["math", "department", "location"],
-    "context": "The Mathematics Department at The City College of New York (CCNY) is dedicated to providing high-quality education in mathematics and related fields. The department offers a wide range of courses and programs for undergraduate and graduate students, as well as opportunities for research and professional development."
+    "context": "The Mathematics Department at The City College of New York (CCNY) is dedicated to providing high-quality education in mathematics and related fields. The department offers a wide range of courses and programs for undergraduate and graduate students, as well as opportunities for research and professional development.",
+    "school": "CCNY"
   }
 ]
