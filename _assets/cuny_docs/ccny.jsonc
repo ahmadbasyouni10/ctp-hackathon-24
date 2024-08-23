@@ -20,7 +20,7 @@
   {
     "question": "What is the mascot of The City College of New York (CCNY)?",
     "answer": "Benny the Beaver",
-    "tags": [],
+    "tags": ["mascot", "symbol", "identity"],
     "context": "The mascot of The City College of New York (CCNY) is Benny the Beaver. The beaver was chosen as the mascot in 1914, and has been a symbol of the college ever since. The beaver was selected as the mascot because of its industrious nature and its association with the city of New York, which was built on the hard work of its residents."
   },
   {
@@ -42,9 +42,9 @@
     "context": "The Counseling Center at The City College of New York (CCNY) provides a range of mental health services to support students in their personal, academic, and professional development. The center offers individual counseling, group counseling, workshops, and outreach programs to help students navigate the challenges of college life. The counselors at the center are licensed mental health professionals who are trained to address a variety of concerns, including stress, anxiety, depression, relationship issues, and more. The center is committed to providing a safe and supportive environment where students can explore their thoughts and feelings, develop coping strategies, and work towards their personal goals. If you are struggling with mental health issues, don't hesitate to reach out to the Counseling Center for support."
   },
   {
-    "question": "",
-    "answer": "",
-    "tags": [],
-    "context": ""
+    "question": "Where is the math department located at The City College of New York (CCNY)?",
+    "answer": "The Mathematics Department at The City College of New York (CCNY) is located in the Marshak Science Building, Room 529. Hours of Operation: Monday - Friday, 9 am - 5 pm",
+    "tags": ["math", "department", "location"],
+    "context": "The Mathematics Department at The City College of New York (CCNY) is dedicated to providing high-quality education in mathematics and related fields. The department offers a wide range of courses and programs for undergraduate and graduate students, as well as opportunities for research and professional development."
   }
 ]
