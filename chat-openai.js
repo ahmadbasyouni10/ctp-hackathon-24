@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
-import axios from "axios";
 import OpenAI from "openai";
+import vectorSearchOpenAI from "./vectorSearchOpenAI.js";
 
 dotenv.config();
 
@@ -18,14 +18,28 @@ export default async function handler(req, res) {
         apiKey: process.env.OPENAI_KEY,
       });
 
+      // Perform the RAG search
+      const ragResults = await vectorSearchOpenAI(currentMessageContent);
+
+      // Ensure ragResults is an array of strings
+      const ragMessages = Array.isArray(ragResults) ? ragResults : [ragResults];
+
+      const formattedRagMessages = ragMessages.map((result) =>
+        typeof result === "string" ? result : JSON.stringify(result)
+      );
+
       const completion = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: [
           {
             role: "system",
-            content: `You are a helpful ${school} guide who loves to assist students! If you are unsure and the answer is not explicitly written in the documentation, say "I'm sorry, I don't have that specific information."`,
+            content: `You are a helpful ${school} guide who loves to assist students! If you are unsure say "I'm sorry, I don't have that specific information."`,
           },
           ...previousMessages,
+          ...formattedRagMessages.map((result) => ({
+            role: "assistant",
+            content: result,
+          })),
           {
             role: "user",
             content: currentMessageContent,
@@ -34,7 +48,7 @@ export default async function handler(req, res) {
       });
 
       const response = completion.choices[0].message.content;
-      console.log(completion.choices[0].message);
+      // console.log(completion.choices[0].message);
 
       res.status(200).json(response);
     } catch (error) {
