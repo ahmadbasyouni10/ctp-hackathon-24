@@ -27,10 +27,15 @@ async function vectorSearchOpenAI(question) {
       {
         $vectorSearch: {
           index: "ccny_vector_index",
-          path: "embeddings",
-          queryVector: embedding, // change this to vectorized question
-          numCandidates: 50,
-          limit: 1, // return top k results
+          filter: {
+            school: {
+              $eq: "CCNY",
+            },
+          },
+          path: "plot_embedding",
+          queryVector: embedding,
+          limit: 3, // return top k results
+          numCandidates: 100,
         },
       },
       {
@@ -39,6 +44,7 @@ async function vectorSearchOpenAI(question) {
           _id: 1,
           question: 1,
           answer: 1,
+          context: 1,
           score: {
             $meta: "vectorSearchScore",
           },
