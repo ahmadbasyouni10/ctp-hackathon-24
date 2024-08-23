@@ -9,6 +9,7 @@ import {
   Flex,
   Heading,
   useColorModeValue,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import axios from "axios";
 import TypingText from "./TypingText";
@@ -80,6 +81,8 @@ function ChatbotOpenAIPage() {
     ]);
   };
 
+  const displayValue = useBreakpointValue({ base: "none", md: "flex" });
+
   return (
     <Flex height="calc(100vh - 68px)" bg={bgColor}>
       <VStack
@@ -89,6 +92,7 @@ function ChatbotOpenAIPage() {
         alignItems="stretch"
         borderRight="1px solid"
         borderColor="gray.700"
+        display={displayValue}
       >
         <Heading as="h2" size="lg" color={textColor}>
           Hello Ahmad, 👋
