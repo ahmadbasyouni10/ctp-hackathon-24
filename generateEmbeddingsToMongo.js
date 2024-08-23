@@ -48,7 +48,7 @@ async function generateEmbeddingsToMongo() {
       // Add the embedding to the original object
       const documentWithEmbedding = {
         ...item,
-        embedding: embedding,
+        plot_embedding: embedding,
       };
 
       documentsToInsert.push(documentWithEmbedding);

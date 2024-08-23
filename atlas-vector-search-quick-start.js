@@ -22,6 +22,7 @@ async function run() {
         $vectorSearch: {
           index: "vector_index",
           path: "plot_embedding",
+          similarity: "cosine",
           queryVector: [
             -0.0016261312, -0.028070757, -0.011342932, -0.012775794,
             -0.0027440966, 0.008683807, -0.02575152, -0.02020668, -0.010283281,
