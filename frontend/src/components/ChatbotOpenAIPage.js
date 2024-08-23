@@ -13,7 +13,7 @@ import {
 import axios from "axios";
 import TypingText from "./TypingText";
 
-function ChatbotPage() {
+function ChatbotOpenAIPage() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -44,7 +44,7 @@ function ChatbotPage() {
       setInput("");
 
       try {
-        const response = await axios.post("/api/chat", {
+        const response = await axios.post("/api/chat-openai", {
           messages: [...messages, userMessage].map((m) => ({
             role: m.sender === "user" ? "user" : "assistant",
             content: m.text,
@@ -54,7 +54,7 @@ function ChatbotPage() {
 
         setMessages((prevMessages) => [
           ...prevMessages,
-          { text: response.data.text || "No response", sender: "bot" },
+          { text: response.data || "No response", sender: "bot" },
         ]);
       } catch (error) {
         console.error("Error sending message:", error);
@@ -166,4 +166,4 @@ function ChatbotPage() {
   );
 }
 
-export default ChatbotPage;
+export default ChatbotOpenAIPage;

@@ -1,9 +1,16 @@
-import React from 'react';
-import { ChakraProvider, CSSReset, Box, Flex, Image, Text } from '@chakra-ui/react';
-import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import ChatbotPage from './components/ChatbotPage';
-
+import React from "react";
+import {
+  ChakraProvider,
+  CSSReset,
+  Box,
+  Flex,
+  Image,
+  Text,
+} from "@chakra-ui/react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
+import ChatbotPage from "./components/ChatbotPage";
+import ChatbotOpenAIPage from "./components/ChatbotOpenAIPage";
 
 function App() {
   return (
@@ -12,7 +19,7 @@ function App() {
       <Router>
         <Box>
           <Flex justify="space-between" align="center" p={4} bg="gray.100">
-            <Link to = "/">
+            <Link to="/">
               <Text
                 bgGradient="linear(to-r, blue.400, purple.500)"
                 bgClip="text"
@@ -23,11 +30,14 @@ function App() {
               </Text>
             </Link>
             <Image src="/CUNYYY.png" alt="CUNY Logo" boxSize="40px" />
-            <Text fontSize="20px" fontWeight="bold" color="blue.500">RAG Guide</Text>
+            <Text fontSize="20px" fontWeight="bold" color="blue.500">
+              RAG Guide
+            </Text>
           </Flex>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/chat" element={<ChatbotPage />} />
+            <Route path="/chat-openai" element={<ChatbotOpenAIPage />} />
           </Routes>
         </Box>
       </Router>
