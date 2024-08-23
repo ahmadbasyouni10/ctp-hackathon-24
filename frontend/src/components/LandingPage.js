@@ -23,6 +23,10 @@ function LandingPage() {
             </WrapItem>
           ))}
         </Wrap>
+        <Text fontSize="l">Get to know all the available resources locations!</Text>
+        <Button colorScheme="blue" onClick={() => navigate('/map')}>
+            Visit Map Page
+        </Button>
       </VStack>
     </Box>
   );

@@ -3,6 +3,7 @@ import { ChakraProvider, CSSReset, Box, Flex, Image, Text } from '@chakra-ui/rea
 import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import ChatbotPage from './components/ChatbotPage';
+import MapPage from './components/MapPage';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/chat" element={<ChatbotPage />} />
+            <Route path="/map" element={<MapPage />} />
           </Routes>
         </Box>
       </Router>
