@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import axios from "axios";
 
 dotenv.config();
+
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const { messages, school } = req.body;
@@ -34,7 +35,7 @@ export default async function handler(req, res) {
       // Initialize the OpenAI chat model
       const llm = new ChatOpenAI({
         openAIApiKey: process.env.OPENAI_KEY,
-        modelName: "gpt-4o mini",
+        modelName: "gpt-4o-mini",
         temperature: 0,
       });
 
