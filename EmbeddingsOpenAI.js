@@ -13,6 +13,8 @@ async function createEmbeddings(text) {
     input: text,
     encoding_format: "float",
   });
+
+  return embedding;
 }
 
 export default createEmbeddings;
