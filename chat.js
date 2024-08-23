@@ -5,16 +5,19 @@ import axios from "axios";
 
 dotenv.config();
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
+  if (req.method === "POST") {
     const { messages, school } = req.body;
     const currentMessageContent = messages[messages.length - 1].content;
 
     try {
       // Perform vector search to get relevant context
-      const vectorSearchResponse = await axios.post(`${process.env.API_URL}/api/vectorSearch`, {
-        school,
-        question: currentMessageContent
-      });
+      const vectorSearchResponse = await axios.post(
+        `${process.env.API_URL}/api/vectorSearch`,
+        {
+          school,
+          question: currentMessageContent,
+        }
+      );
 
       const vectorSearch = vectorSearchResponse.data;
 
@@ -31,22 +34,28 @@ export default async function handler(req, res) {
       // Initialize the OpenAI chat model
       const llm = new ChatOpenAI({
         openAIApiKey: process.env.OPENAI_KEY,
-        modelName: "gpt-3.5-turbo",
+        modelName: "gpt-4o mini",
         temperature: 0,
       });
 
       // Generate a response using the chat model
       const response = await llm.call(
-        messages.map(m => m.role === 'user' ? new HumanMessage(m.content) : new AIMessage(m.content))
+        messages.map((m) =>
+          m.role === "user"
+            ? new HumanMessage(m.content)
+            : new AIMessage(m.content)
+        )
       );
 
       res.status(200).json(response);
     } catch (error) {
-      console.error('Error in chat:', error);
-      res.status(500).json({ error: 'An error occurred during chat processing' });
+      console.error("Error in chat:", error);
+      res
+        .status(500)
+        .json({ error: "An error occurred during chat processing" });
     }
   } else {
-    res.setHeader('Allow', ['POST']);
+    res.setHeader("Allow", ["POST"]);
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }

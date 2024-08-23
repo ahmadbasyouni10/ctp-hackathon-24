@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Text } from '@chakra-ui/react';
+import React, { useState, useEffect } from "react";
+import { Text } from "@chakra-ui/react";
 
-function TypingText({ text = '', color = "black" }) {
-  const [displayedText, setDisplayedText] = useState('');
+function TypingText({ text = "", color = "black" }) {
+  const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
     if (!text) return; // Add this check
@@ -15,17 +15,13 @@ function TypingText({ text = '', color = "black" }) {
       } else {
         clearInterval(typingInterval);
       }
-    }, 30);
+    }, 10);
 
     return () => clearInterval(typingInterval);
   }, [text]);
 
   return (
-    <Text
-      color={color}
-      fontWeight="semibold"
-      fontSize="md"
-    >
+    <Text color={color} fontWeight="semibold" fontSize="md">
       {displayedText}
     </Text>
   );
