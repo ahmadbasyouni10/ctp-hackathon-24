@@ -40,18 +40,28 @@ function LandingPage() {
       >
         <VStack spacing={8}>
           <Heading as="h1" size="4xl" color="white">
-            CUNYHub
+            CUNY Guide
           </Heading>
           <Text fontSize="4xl" color="white">
             Empowering You with Essential Resources 🚀
           </Text>
-          <Button
-            colorScheme="blue"
-            size="lg"
-            onClick={() => navigate("/chat", { state: { school: "CCNY" } })}
-          >
-            Start CCNY Guide
-          </Button>
+
+          <div style={{ display: "flex", gap: "10px" }}>
+            <Button
+              colorScheme="blue"
+              size="lg"
+              onClick={() => navigate("/chat", { state: { school: "CCNY" } })}
+            >
+              Start CCNY Chatbot
+            </Button>
+            <Button
+              colorScheme="blue"
+              size="lg"
+              onClick={() => navigate("/map")}
+            >
+              Go to Map
+            </Button>
+          </div>
         </VStack>
       </Box>
     </>
