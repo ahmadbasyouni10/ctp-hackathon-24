@@ -1,5 +1,16 @@
 # CUNY Guide
 
+Cuny Tech Prep Cohort 10 Hackathon
+
+Made by Daniel, Jair, Ahmad, and Kazi
+
+## Demo Video 
+
+<a href="https://youtu.be/yBzlTa8ETWs">
+  <img src="https://img.youtube.com/vi/yBzlTa8ETWs/0.jpg" alt="Watch the video" width="800"/>
+</a>
+
+
 ## 🚀 Inspiration
 
 CUNY students often struggle to find and access campus resources. We were inspired to create a solution that makes essential information easily accessible to all students, regardless of their campus or background.
@@ -26,7 +37,7 @@ We developed CUNY Guide using the following technologies:
 
 ## 🤖 RAG (Retrieval-Augmented Generation)
 
-![image](https://github.com/user-attachments/assets/ed513458-5520-4d5d-9d7c-814776efd3cd)
+<img src="https://github.com/user-attachments/assets/ed513458-5520-4d5d-9d7c-814776efd3cd" width="500"/>
 
 ## ⚠️ Challenges We Ran Into
 
