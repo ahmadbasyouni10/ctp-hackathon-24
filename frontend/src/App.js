@@ -26,12 +26,12 @@ function App() {
                 fontSize="3xl"
                 fontWeight="extrabold"
               >
-                StealthAI
+                CUNY Guide
               </Text>
             </Link>
             <Image src="/CUNYYY.png" alt="CUNY Logo" boxSize="40px" />
-            <Text fontSize="20px" fontWeight="bold" color="blue.500">
-              CUNY Guide
+            <Text fontSize="25px" fontWeight="bold" color="blue.500">
+            StealthAI
             </Text>
           </Flex>
           <Routes>
