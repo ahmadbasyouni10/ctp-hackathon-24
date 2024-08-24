@@ -1,0 +1,92 @@
+.purple-block svg{
+    color: #ffffff;
+    height: 5em;
+    width: 5em;
+}
+
+.blue-block svg{
+    color: #0008ff;
+    height: 5em;
+    width: 5em;
+}
+
+
+  
+  .map-wrapper .map {
+    flex: 1; /* Take up the remaining space in the wrapper */
+  }
+  
+  .layer-toggle {
+    margin-left: 20px; /* Space between the map and the toggle box */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: transparent;
+    color: black;
+  }
+  
+.layer-toggle label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 3rem;
+    font-size: 1rem;
+  }
+  
+  .layer-toggle input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .layer-toggle span {
+    position: absolute;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  
+  .layer-toggle input[type="checkbox"]:checked + span {
+    background: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .layer-toggle span::after {
+    content: '';
+    position: absolute;
+    left: 0.4rem; /* Adjusted positioning */
+    top: 0.2rem; /* Adjusted positioning */
+    width: 0.4rem;
+    height: 0.8rem;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    transition: opacity 0.3s;
+    opacity: 0;
+  }
+  
+  .layer-toggle input[type="checkbox"]:checked + span::after {
+    opacity: 1;
+  }
+  
+  .direction-panel-wrapper {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 250px; /* Adjust as needed */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Light border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    padding: 10px;
+    z-index: 1000; /* Ensure it stays on top */
+  }

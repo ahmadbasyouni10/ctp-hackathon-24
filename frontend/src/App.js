@@ -10,6 +10,7 @@ import {
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import ChatbotOpenAIPage from "./components/ChatbotOpenAIPage";
+import MapPage from "./components/MapPage";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/chat" element={<ChatbotOpenAIPage />} />
+            <Route path="/map" element={<MapPage />} />
+
           </Routes>
         </Box>
       </Router>
