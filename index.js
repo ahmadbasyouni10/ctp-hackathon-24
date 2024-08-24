@@ -14,6 +14,7 @@ const PORT = process.env.PORT || 8000;
 app.post("/api/vectorSearch", vectorSearchHandler);
 app.post("/api/chat", chatHandler);
 app.post("/api/chat-openai", chatOpenAIHandler);
+// add map here
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

@@ -35,6 +35,7 @@ async function vectorSearchOpenAI(question) {
           path: "plot_embedding",
           queryVector: embedding,
           limit: 3, // return top k results
+          // increase if we have more than 100 docs
           numCandidates: 100,
         },
       },
