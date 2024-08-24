@@ -30,7 +30,7 @@ function App() {
             </Link>
             <Image src="/CUNYYY.png" alt="CUNY Logo" boxSize="40px" />
             <Text fontSize="20px" fontWeight="bold" color="blue.500">
-              RAG Guide
+              CUNY Guide
             </Text>
           </Flex>
           <Routes>
