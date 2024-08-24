@@ -1,5 +1,3 @@
-# ctp-hackathon-24
-
 # CUNY Guide
 
 Welcome to CUNY Guide! 🎉
