@@ -24,6 +24,8 @@ We developed CUNY Guide using the following technologies:
 - **Web Scraping Tools**: To collect data from CCNY's official websites.
 - **Data Cleaning and Processing Scripts**: To prepare the scraped information for our system.
 
+## 🤖 RAG (Retrieval-Augmented Generation)
+
 - ![image](https://github.com/user-attachments/assets/ed513458-5520-4d5d-9d7c-814776efd3cd)
 
 ## ⚠️ Challenges We Ran Into
