@@ -54,5 +54,650 @@
     "tags": ["math", "department", "location"],
     "context": "The Mathematics Department at The City College of New York (CCNY) is dedicated to providing high-quality education in mathematics and related fields. The department offers a wide range of courses and programs for undergraduate and graduate students, as well as opportunities for research and professional development.",
     "school": "CCNY"
+  },
+  {
+    "question": "What is the mission of the Counseling Center at The City College of New York (CCNY)?",
+    "answer": "To provide high-quality counseling services that are accessible to all City College students.",
+    "tags": ["mission", "vision", "purpose"],
+    "context": "In line with City College's vision of access to excellence, it is the mission of the Counseling Center to provide high-quality counseling services that are accessible to all City College students. The center offers short-term, student-centered, and culturally informed psychological services from a modern and integrative theoretical orientation, treating all students with respect and recognition of their unique strengths. They also serve as a liaison to the community, linking students to more intensive and longer-term services when needed.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does the Counseling Center at The City College of New York (CCNY) provide?",
+    "answer": "Individual counseling, crisis intervention, group counseling, consultation, referral, and workshops. All services are free and confidential.",
+    "tags": ["services", "counseling", "mental health"],
+    "context": "The Counseling Center at CCNY provides a range of services including individual counseling, crisis intervention, group counseling, consultation, referral, and workshops. All services offered by the center are free and confidential, ensuring that students have access to the support they need without financial barriers.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can CCNY students make an appointment with the Counseling Center?",
+    "answer": "Students can email counseling@ccny.cuny.edu, call (212) 650-8222, or stop by the office in Marshak J15.",
+    "tags": ["appointment", "contact", "services"],
+    "context": "If you are a CCNY student and would like to contact the Counseling Center for services, you can do so by emailing counseling@ccny.cuny.edu, calling (212) 650-8222, or stopping by the office in Marshak J15. Email is checked by a counselor during normal business hours, and including your phone number in the email will expedite the process of setting up an appointment.",
+    "school": "CCNY"
+  },
+  {
+    "question": "When might counseling be helpful for CCNY students?",
+    "answer": "Counseling can be helpful for a wide range of concerns, including enhancing relationships, managing stress, improving academic performance, coping with loss, and addressing mental health issues like depression and anxiety.",
+    "tags": ["counseling", "mental health", "support"],
+    "context": "Counseling provides students with a safe, confidential, and nonjudgmental space to voice their concerns. It can be helpful for enhancing relationships, managing stress, improving academic performance, coping with loss, overcoming loneliness, reducing anxiety, and addressing other personal challenges. The Counseling Center at CCNY offers short-term counseling and can assist students in connecting with longer-term services if needed.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What should a CCNY student do in case of a crisis?",
+    "answer": "Students can text CUNY to 741741 for the Crisis Text Line or call 988 for the Suicide and Crisis Lifeline, both available 24/7.",
+    "tags": ["crisis", "emergency", "support"],
+    "context": "In case of a crisis, CCNY students can immediately connect with a Crisis Counselor via SMS by texting CUNY to 741741, which is a free and confidential service available 24/7. Alternatively, they can call the 988 Suicide and Crisis Lifeline for immediate and confidential support for any mental health concern, also available 24/7.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is the Counseling Center at The City College of New York (CCNY) located?",
+    "answer": "Marshak Science Building, Room J-15, 160 Convent Avenue, New York, NY 10031.",
+    "tags": ["location", "address", "counseling center"],
+    "context": "The Counseling Center at CCNY is located in the Marshak Science Building, Room J-15, at 160 Convent Avenue, New York, NY 10031. The center is easily accessible to students and provides a range of mental health services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the hours of operation for the Counseling Center at CCNY?",
+    "answer": "Monday to Friday, 9:00 am – 5:00 pm. Walk-in hours are Monday to Friday, 1:00 pm – 3:00 pm.",
+    "tags": ["hours", "operation", "services"],
+    "context": "The Counseling Center at CCNY operates from Monday to Friday, 9:00 am – 5:00 pm, with walk-in hours from 1:00 pm – 3:00 pm. Students can visit during these times for appointments or walk-in services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can faculty and staff refer a student to the Counseling Center at CCNY?",
+    "answer": "Faculty and staff can refer a student by calling (212) 650-8222 or emailing counseling@ccny.cuny.edu.",
+    "tags": ["referral", "faculty", "staff"],
+    "context": "Faculty and staff at CCNY can refer students to the Counseling Center by contacting the center via phone at (212) 650-8222 or by emailing counseling@ccny.cuny.edu. The center provides consultations and support for students in need of mental health services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is Benny's Food Pantry at The City College of New York (CCNY)?",
+    "answer": "Benny's Food Pantry is a food assistance program at CCNY, providing resources to the CUNY community since 2017.",
+    "tags": ["food pantry", "resources", "food assistance", "CCNY"],
+    "context": "Benny's Food Pantry was first launched in 2017 in a small office space within the Colin Powell School. It was inspired by the UCLA Food Pantry and has since moved to a larger space in the Hoffman Lounge area of the North Academic Complex (NAC). The pantry was renamed 'Benny's' in 2019 to align with the college's mission to 'open the doors to all.'",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the hours of operation for Benny's Food Pantry at The City College of New York (CCNY)?",
+    "answer": "Benny's Food Pantry is open Monday - Friday, 10 AM - 4 PM.",
+    "tags": ["hours", "operation", "food pantry", "resources"],
+    "context": "Benny's Food Pantry operates Monday through Friday from 10 AM to 4 PM. Starting January 29, 2024, access to the pantry will be by appointment only, which can be scheduled through the pantry's appointment system.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I make an appointment to visit Benny's Food Pantry at CCNY?",
+    "answer": "You can schedule an appointment via Benny's Food Pantry Appointment System.",
+    "tags": ["appointment", "access", "food pantry", "resources"],
+    "context": "Starting January 29, 2024, Benny's Food Pantry will require appointments for access. Appointments can be made online through the pantry's appointment system. If the pantry doors are closed, contact the public safety officer at the NAC building entrance for assistance.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are The Urban Gardens at The City College of New York (CCNY)?",
+    "answer": "The Urban Gardens at CCNY are a resource and teaching space associated with Benny's Food Pantry, opened in 2019.",
+    "tags": ["urban gardens", "resources", "teaching space", "CCNY"],
+    "context": "The Urban Gardens at CCNY were established in 2019 through the support of the Foundation for City College and the Moxie Foundation. The gardens serve as a resource for Benny's Food Pantry and are cared for by the community in partnership with various CCNY offices and initiatives. The gardens are part of a broader effort to combat food insecurity on campus.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the CCNY Immunization Record Form?",
+    "answer": "The CCNY Immunization Record Form is available online.",
+    "tags": ["immunization", "record form", "health", "CCNY"],
+    "context": "The CCNY Immunization Record Form can be downloaded from the official CCNY website. [Download the form here](https://www.ccny.cuny.edu/sites/default/files/Immunization%20Record.pdf).",
+    "school": "CCNY"
+  },
+  {
+    "question": "What should I do if I experience COVID-19 symptoms as a CCNY student?",
+    "answer": "Contact your medical provider or call 311 for guidance if you experience COVID-19 symptoms.",
+    "tags": ["COVID-19", "symptoms", "health", "CCNY"],
+    "context": "Students experiencing symptoms related to the coronavirus are encouraged to reach out to their medical provider or call 311 for instructions. Additional information can be found on the [CDC's website](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html) or the [New York City Health website](https://www1.nyc.gov/site/doh/health/health-topics/coronavirus.page).",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does the Student Health Services (SHS) provide at CCNY?",
+    "answer": "SHS provides free and confidential clinical services to all currently enrolled CCNY students.",
+    "tags": ["health services", "student health", "CCNY"],
+    "context": "Student Health Services (SHS) at CCNY is committed to providing quality care and empowering students to make informed health decisions. Services provided by Registered Nurses are free and confidential. SHS is part of Health and Wellness Services in the Division of Student Affairs, offering assistance with health issues, health insurance enrollment, immunization requirements, and referrals.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I find a vaccination site in New York State?",
+    "answer": "You can find a NYS vaccination site through the online portal.",
+    "tags": ["vaccination", "NYS", "COVID-19", "health"],
+    "context": "For assistance in finding a New York State vaccination site, students can visit the NYS online portal at [Am I Eligible](https://am-i-eligible.covid19vaccine.health.ny.gov/).",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I contact CCNY Student Health Services?",
+    "answer": "You can contact Student Health Services via phone or email.",
+    "tags": ["contact", "health services", "CCNY"],
+    "context": "To speak to a nurse at CCNY's Student Health Services, call 212.650.8222 or email shs@ccny.cuny.edu. The Health and Wellness Office is open Monday to Friday, 9 am - 5 pm, offering limited services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is Palladia, Inc - 126th St Shelter?",
+    "answer": "Palladia, Inc - 126th St Shelter provides temporary emergency shelter and various support services.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Palladia, Inc, located at 35 W 126th St, New York, NY 10027, serves nearly 2000 clients per day through 31 distinct programs. They offer a wide range of services including homelessness prevention, emergency shelter, residential substance abuse treatment, and permanent supportive housing. Palladia is designed to assist individuals and families in need, including CCNY students facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is Palladia, Inc - 126th St Shelter located?",
+    "answer": "Palladia, Inc - 126th St Shelter is located at 35 W 126th St, New York, NY 10027.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "Palladia, Inc - 126th St Shelter is located at 35 W 126th St, New York, NY 10027. This shelter is part of Palladia's extensive network of programs designed to assist individuals and families in need, including those facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can Palladia, Inc help CCNY students facing housing insecurity?",
+    "answer": "Palladia, Inc offers emergency shelter and a range of support services for individuals facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Palladia, Inc provides a variety of services to help those in crisis, including CCNY students facing housing insecurity. They offer temporary emergency shelter, homelessness prevention, substance abuse treatment, and permanent supportive housing, among other services. Their goal is to support individuals and families in need and help them overcome housing challenges.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does The Bowery Mission - Tribeca Campus provide?",
+    "answer": "The Bowery Mission - Tribeca Campus offers safe overnight shelter, daily meals, showers, clothing, case management, and referrals for medical and mental health care.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "The Bowery Mission - Tribeca Campus, located at 90 Lafayette St, New York City, NY 10002, provides a safe, clean shelter for men and women each night. They offer daily meals, showers, clothing, clinical case management, and referrals to medical and mental health care. Intake occurs daily at 3 p.m. for women and 4 p.m. for men. Guests may stay for up to 7 days. These services are designed to assist individuals, including CCNY students, facing housing insecurity or homelessness.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is The Bowery Mission - Tribeca Campus located?",
+    "answer": "The Bowery Mission - Tribeca Campus is located at 90 Lafayette St, New York City, NY 10002.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "The Bowery Mission - Tribeca Campus is located at 90 Lafayette St, New York City, NY 10002. This campus offers safe, clean overnight shelter, along with daily meals, showers, clothing, and referrals to necessary services for individuals, including CCNY students, facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can The Bowery Mission - Tribeca Campus help CCNY students facing housing insecurity?",
+    "answer": "The Bowery Mission - Tribeca Campus provides emergency shelter and essential services for those facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "For CCNY students facing housing insecurity, The Bowery Mission - Tribeca Campus offers a range of services including safe overnight shelter, daily meals, showers, clothing, and referrals to medical and mental health care. They also provide intake for long-term programming. Guests can stay for up to 7 days, with intake at 3 p.m. for women and 4 p.m. for men. Walk-ins are welcome, or you can call (212) 226-6214 for more information.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does Mainchance Drop-In Center provide?",
+    "answer": "Mainchance Drop-In Center offers emergency overnight shelter, housing assistance, medical services, social work, and three daily meals.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Mainchance Drop-In Center, operated by Grand Central Neighborhood Social Services Corporation, is located at 120 East 32nd Street, New York, NY 10016. Open 24/7, 365 days a year, it provides emergency overnight shelter, housing assistance, medical services, social work, and three daily meals. The center also offers a bus service to a faith-based overnight bed program. As one of the city's largest drop-in centers, it serves individuals from various ages, backgrounds, and cultures, providing a refuge from the streets in a supportive environment.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is Mainchance Drop-In Center located?",
+    "answer": "Mainchance Drop-In Center is located at 120 East 32nd Street, New York, NY 10016.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "Mainchance Drop-In Center is located at 120 East 32nd Street, New York, NY 10016. Open 24 hours a day, 365 days a year, this center provides a range of services including emergency shelter, meals, and social work support to individuals, including CCNY students, facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can Mainchance Drop-In Center help CCNY students facing housing insecurity?",
+    "answer": "Mainchance Drop-In Center offers shelter, meals, and social services to assist those facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "For CCNY students facing housing insecurity, Mainchance Drop-In Center provides emergency overnight shelter, daily meals, housing assistance, medical services, and social work support. The center is open 24/7, offering a refuge from the streets in a protective and welcoming environment. The center also facilitates a bus service to a faith-based overnight bed program. For more information, contact (212) 883-0680.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is The City College of New York (CCNY) located?",
+    "answer": "160 Convent Ave, New York, NY 10031, United States",
+    "tags": ["location", "address", "campus"],
+    "context": "The City College of New York (CCNY) is located in the Hamilton Heights neighborhood of Harlem in Manhattan, New York City. The main campus is situated on a hill overlooking Harlem, bounded by St. Nicholas Terrace to the west, St. Nicholas Avenue to the east, and 140th Street to the south, with the original campus bounded by Hamilton Place to the west, Convent Avenue to the east, and 140th Street to the south. The college was originally founded on the present site of Townsend Harris High School in 1847, and moved to its current location in 1907.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How old is The City College of New York (CCNY)?",
+    "answer": "The City College of New York (CCNY) was established in 1847.",
+    "tags": ["age", "established", "founded", "year"],
+    "context": "The City College of New York (CCNY) was established in 1847 as the Free Academy of the City of New York, which was the first free public institution of higher education in the United States. It was later renamed the College of the City of New York in 1866, and then The City College of New York in 1929.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Who is the current president of The City College of New York (CCNY)?",
+    "answer": "Vincent Boudreau",
+    "tags": ["president", "leader", "administration"],
+    "context": "Vincent Boudreau was appointed president of The City College of New York by the Board of Trustees of The City University of New York on December 4, 2017. Prior to that, he served as the founding dean of the Colin Powell School for Civic and Global Leadership at CCNY from 2013 through 2016. From 2002 through 2013, he served as the founding director of the Colin Powell School for Civic and Global Leadership at CCNY, was a professor of political science at City College, and a member of the City University of New York graduate faculty.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is the mascot of The City College of New York (CCNY)?",
+    "answer": "Benny the Beaver",
+    "tags": ["mascot", "symbol", "identity"],
+    "context": "The mascot of The City College of New York (CCNY) is Benny the Beaver. The beaver was chosen as the mascot in 1914, and has been a symbol of the college ever since. The beaver was selected as the mascot because of its industrious nature and its association with the city of New York, which was built on the hard work of its residents.",
+    "school": "CCNY"
+  },
+  {
+    "question": "I am facing food insecurity. Where can I find resources for food assistance at The City College of New York (CCNY)?",
+    "answer": "Benny's Food Pantry is open from Monday through Friday 10 AM to 4 PM located in the Hoffman Lounge within the NAC building",
+    "tags": ["no money", "hungry", "food pantry", "resources"],
+    "context": "Benny's Food Pantry was first launched in 2017, in a small shared office space in the Colin Powell School. We were inspired by the opening of the UCLA Food Pantry and the wonderful work they were doing for their student communities. In 2019, we moved to a new, larger space in the Hoffman Lounge area of the North Academic Complex (NAC) and renamed the pantry \"Benny's\" as a way to anchor the tradition of our pantry to the founding mission of our college to \"open the doors to all.\"Due to Covid-19's impact on our community-at-large, Benny's Food Pantry was able to expand to be a resource open to anyone in the City University of New York community - meaning if you're a student, a member of our staff, or on faculty at a college within the CUNY system, you are welcome to visit Benny's whenever you or someone you care for is in need. We want to serve as a resource to anyone who finds themselves in need throughout the year. In addition to providing food assistance, Benny's Pantry is a gateway to connect students and their families, faculty, and staff to critical support services such as: SNAP benefits; Emergency grants through referrals to the Colin Powell School (for CPS Majors), OIAC, or Student Affairs, depending on the type of need; Emergency housing referrals; Job preparation and training through referrals to our CPDI team; Health workshops and nutrition training, co-sponsored as part of our World Food Day Initiatives and food pantry demo days throughout the year",
+    "school": "CCNY"
+  },
+  {
+    "question": "I dont feel so well. Where can I find health services at The City College of New York (CCNY)?",
+    "answer": "The Student Health Services (SHS) is located in the Marshak Science Building, Room J15. Hours of Operation: Monday - Friday, 9 am - 5 pm",
+    "tags": [],
+    "context": "Student Health Services (SHS) is committed to providing quality care and empowering students to make informed decisions about their health. Clinical services provided by Registered Nurses are free and confidential for all currently enrolled CCNY students. Health and Wellness Services is committed to helping students with questions and concerns regarding health issues, health insurance enrollment, immunization requirements, referrals, etc. If you need to speak to a nurse, don't hesitate to get in touch with us at 212.650.8222 or email us at shs@ccny.cuny.edu",
+    "school": "CCNY"
+  },
+  {
+    "question": "I am struggling mentally and emotionally. Where can I find mental health services at The City College of New York (CCNY)?",
+    "answer": "The Counseling Center is located in the NAC building, Room 1/218. Hours of Operation: Monday - Friday, 9 am - 5 pm",
+    "tags": ["mental health", "counseling", "therapy", "emotional support"],
+    "context": "The Counseling Center at The City College of New York (CCNY) provides a range of mental health services to support students in their personal, academic, and professional development. The center offers individual counseling, group counseling, workshops, and outreach programs to help students navigate the challenges of college life. The counselors at the center are licensed mental health professionals who are trained to address a variety of concerns, including stress, anxiety, depression, relationship issues, and more. The center is committed to providing a safe and supportive environment where students can explore their thoughts and feelings, develop coping strategies, and work towards their personal goals. If you are struggling with mental health issues, don't hesitate to reach out to the Counseling Center for support.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is the math department located at The City College of New York (CCNY)?",
+    "answer": "The Mathematics Department at The City College of New York (CCNY) is located in the Marshak Science Building, Room 529. Hours of Operation: Monday - Friday, 9 am - 5 pm",
+    "tags": ["math", "department", "location"],
+    "context": "The Mathematics Department at The City College of New York (CCNY) is dedicated to providing high-quality education in mathematics and related fields. The department offers a wide range of courses and programs for undergraduate and graduate students, as well as opportunities for research and professional development.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find career services at The City College of New York (CCNY)?",
+    "answer": "The Career and Professional Development Institute (CPDI) is located in the NAC building, Room 1/116. Hours of Operation: Monday - Thursday, 9:30am - 4:00pm; Friday, 9:30am - 3:00pm.",
+    "tags": ["career", "job search", "internships", "professional development"],
+    "context": "The Career and Professional Development Institute (CPDI) at The City College of New York (CCNY) provides comprehensive career services, including resume reviews, interview preparation, job search strategies, and internship placement. The CPDI is dedicated to helping students achieve their professional goals by connecting them with potential employers and providing the tools and resources needed to succeed in the job market.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What transportation options are available near The City College of New York (CCNY)?",
+    "answer": "CCNY is accessible by several subway lines, including the 1 train at 137th Street and the A, B, C, D trains at 145th Street. Multiple bus routes also serve the area.",
+    "tags": ["transportation", "subway", "bus", "commute"],
+    "context": "The City College of New York (CCNY) is conveniently located in Manhattan and is accessible by various public transportation options. The nearest subway stations are the 137th Street station on the 1 train and the 145th Street station on the A, B, C, D lines. Several MTA bus routes, including the M4, M5, M11, and M100, also serve the campus, making it easy for students, faculty, and staff to commute to and from the college.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What study spaces are available on The City College of New York (CCNY) campus?",
+    "answer": "The main study spaces on campus include the Cohen Library in the NAC building and the quiet study areas in the Marshak Science Building.",
+    "tags": ["study spaces", "library", "quiet areas", "study rooms"],
+    "context": "The City College of New York (CCNY) offers several study spaces across campus to accommodate the diverse needs of its students. The Cohen Library in the NAC building provides a variety of study environments, including group study rooms, quiet study areas, and computer labs. Additionally, the Marshak Science Building has designated quiet study spaces for students looking for a more serene environment to focus on their academic work.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What sports facilities are available at The City College of New York (CCNY)?",
+    "answer": "CCNY has a fitness center, swimming pool, basketball courts, and outdoor recreational spaces for students to stay active and healthy.",
+    "tags": ["sports", "fitness", "recreation", "exercise"],
+    "context": "The City College of New York (CCNY) offers a range of sports facilities and recreational opportunities for students to stay active and healthy. The college's fitness center is equipped with cardio machines, weightlifting equipment, and group exercise classes. The swimming pool provides a space for students to swim laps or participate in aquatic fitness classes. Additionally, CCNY has basketball courts, outdoor recreational spaces, and intramural sports leagues for students to engage in physical activity and connect with their peers.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Are there any clubs or student organizations at The City College of New York (CCNY)?",
+    "answer": "CCNY has over 100 clubs and student organizations, ranging from academic and cultural groups to recreational and special interest clubs.",
+    "tags": ["clubs", "organizations", "student life", "extracurricular activities"],
+    "context": "The City College of New York (CCNY) boasts a vibrant campus life with a wide range of clubs and student organizations catering to various interests. Whether you are interested in joining an academic society, a cultural organization, or a recreational club, CCNY offers plenty of opportunities to get involved. These groups provide a platform for students to connect with peers, develop leadership skills, and engage in activities that enhance their college experience.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What dining options are available on The City College of New York (CCNY) campus?",
+    "answer": "Dining options on campus include the CCNY Cafeteria in the NAC building and various food vendors around the campus.",
+    "tags": ["dining", "food", "cafeteria", "meals"],
+    "context": "The City College of New York (CCNY) offers several dining options for students, faculty, and staff. The CCNY Cafeteria, located in the NAC building, provides a variety of meal choices, including hot meals, sandwiches, salads, and snacks. Additionally, there are several food vendors and coffee shops around campus, offering quick and convenient options for those on the go.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find affordable housing options near The City College of New York (CCNY)?",
+    "answer": "The Division of Student Affairs can provide information on affordable housing options near CCNY. They can be contacted at studentaffairs@ccny.cuny.edu or by visiting their office in the Wille Administration Building, Room A 204.",
+    "tags": ["housing", "affordable housing", "basic needs", "resources"],
+    "context": "The City College of New York (CCNY) offers resources to help students find affordable housing options near campus. The Division of Student Affairs provides guidance and assistance with housing searches, and can connect students with off-campus housing options and financial aid resources to help manage living expenses.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I get health insurance at The City College of New York (CCNY)?",
+    "answer": "The Student Health Services (SHS) office can assist students with health insurance enrollment and is located in the Marshak Science Building, Room J15. Hours of Operation: Monday - Friday, 9 am - 5 pm.",
+    "tags": ["health insurance", "basic needs", "health services", "resources"],
+    "context": "The Student Health Services (SHS) at The City College of New York (CCNY) provides assistance with health insurance enrollment for students. SHS helps students understand their options, apply for health insurance plans, and meet immunization requirements. They are committed to ensuring that all students have access to the healthcare they need.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find emergency financial assistance at The City College of New York (CCNY)?",
+    "answer": "Emergency financial assistance is available through the Division of Student Affairs, located in the Wille Administration Building, Room A 204. Students can contact them at studentaffairs@ccny.cuny.edu for more information.",
+    "tags": ["financial assistance", "emergency aid", "basic needs", "resources"],
+    "context": "The City College of New York (CCNY) offers emergency financial assistance to students facing unexpected financial difficulties. The Office of Student Affairs provides resources and support to help students navigate financial challenges, including emergency grants and referrals to additional aid programs. This support is available to ensure that students can continue their education without interruption.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the gym at The City College of New York (CCNY)?",
+    "answer": "The Wingate Fitness Center is located on the 3rd floor of Wingate Hall.",
+    "tags": ["gym", "fitness", "sports", "recreation"],
+    "context": "The gym at The City College of New York (CCNY) is equipped with fitness machines, free weights, and space for various sports activities. Students, faculty, and staff can use the facilities for physical fitness, recreational sports, and wellness activities.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I get tutoring for my classes at The City College of New York (CCNY)?",
+    "answer": "You can get tutoring at various academic resource centers at CCNY, such as the Samuel Rudin Writing Center, Artino Mathematics Tutoring Center, and Biology and Chemistry Tutoring, among others, depending on your specific needs and courses. Each center offers specialized tutoring and support services for different subjects and programs.",
+    "tags": ["tutoring", "academic support", "help", "classes"],
+    "context": "The City College of New York (CCNY) offers tutoring services in various subjects to help students succeed in their coursework. It is provided one-on-one tutoring, group study sessions, and academic workshops to support students' learning and academic achievement.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find disability services at The City College of New York (CCNY)?",
+    "answer": "The Office of Student Disability Services is located in the NAC building, Room 1/218.",
+    "tags": ["disability services", "accommodations", "support"],
+    "context": "The Office of Student Disability Services at The City College of New York (CCNY) provides accommodations and support for students with disabilities. The office works to ensure equal access to educational opportunities by offering services such as academic accommodations, assistive technology, and advocacy.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find technology resources at The City College of New York (CCNY)?",
+    "answer": "Technology resources are available at the IT Service Desk located in the NAC building, Room 1/301.",
+    "tags": ["technology", "IT services", "computer labs", "resources"],
+    "context": "The IT Service Desk at The City College of New York (CCNY) provides technology support and resources for students, faculty, and staff. Services include access to computer labs, printing, Wi-Fi support, software installations, and technical assistance for personal devices.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I get help with my resume at The City College of New York (CCNY)?",
+    "answer": "Resume assistance is available at the Career and Professional Development Institute (CPDI) located in the NAC building, Room 1/116.",
+    "tags": ["resume", "career services", "job search"],
+    "context": "The Career and Professional Development Institute (CPDI) at The City College of New York (CCNY) provides resume assistance, including reviews, feedback, and workshops. The CPDI helps students create effective resumes that highlight their skills, experience, and qualifications to potential employers.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the campus bookstore at The City College of New York (CCNY)?",
+    "answer": "The Benny's Campus Store is located in the NAC building, Room 1/103 A.",
+    "tags": ["bookstore", "textbooks", "supplies"],
+    "context": "The Benny's Campus Store at The City College of New York (CCNY) offers textbooks, school supplies, CCNY apparel, and other items. It provides a convenient place for students to purchase required materials for their courses and other essentials.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find international student services at The City College of New York (CCNY)?",
+    "answer": "International student services are available at the Office of International Students and Scholars, located in the NAC building, Room 1/107.",
+    "tags": ["international students", "support", "visa", "services"],
+    "context": "The Office of International Students and Scholars at The City College of New York (CCNY) provides support services for international students, including visa and immigration guidance, cultural adjustment assistance, and academic support. The office helps international students navigate the challenges of studying in a new country and ensures they have the resources needed to succeed at CCNY.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the financial aid office at The City College of New York (CCNY)?",
+    "answer": "The Financial Aid Office is located in the Wille Administration Building, Room 104.",
+    "tags": ["financial aid", "scholarships", "grants", "loans"],
+    "context": "The Financial Aid Office at The City College of New York (CCNY) assists students in securing financial resources to fund their education. The office provides information on scholarships, grants, loans, and work-study opportunities, and helps students navigate the financial aid application process.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find emergency medical services at The City College of New York (CCNY)?",
+    "answer": "Emergency medical services are available through the Student Health Services (SHS) office in the Marshak Science Building, Room J15.",
+    "tags": ["emergency services", "medical", "health", "basic needs"],
+    "context": "The Student Health Services (SHS) at The City College of New York (CCNY) provides emergency medical services for students in need of immediate care. The SHS offers a range of health services, including first aid, medical consultations, and referrals to external healthcare providers for more serious conditions.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I get assistance with technology issues at The City College of New York (CCNY)?",
+    "answer": "Assistance with technology issues is available through the IT Service Desk, located in the NAC building, Room 1/301. The IT Service Desk provides support for computer issues, software installations, and other tech-related concerns.",
+    "tags": ["IT support", "technology", "tech help"],
+    "context": "The IT Service Desk at The City College of New York (CCNY) offers support for a range of technology-related issues, including computer problems, software installations, and network connectivity. Students can visit the desk or contact the office for help with their tech needs.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I access library resources and study spaces at The City College of New York (CCNY)?",
+    "answer": "Library resources and study spaces are accessible through the Cohen Library, located in the North Academic Center (NAC), Room 2/201. The library offers study rooms, computer access, and a range of academic resources.",
+    "tags": ["library", "study spaces", "resources"],
+    "context": "The Cohen Library at The City College of New York (CCNY) provides access to study spaces, computers, and a wide range of academic resources. Students can use the library for studying, research, and accessing digital and physical materials.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I access online library resources at The City College of New York (CCNY)?",
+    "answer": "Online library resources are available through the CCNY Libraries website, which provides access to digital collections, research databases, and academic journals. Students can access these resources remotely using their CCNY credentials.",
+    "tags": ["library", "online resources", "research", "databases"],
+    "context": "The City College of New York (CCNY) offers online library resources through the CCNY Libraries website. Students can access digital collections, research databases, academic journals, and other materials online using their CCNY credentials. These resources are available 24/7 for students to use for research and academic purposes.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find information about student housing at The City College of New York (CCNY)?",
+    "answer": "Information about student housing options can be found through the Division of Student Affairs, located in the Wille Administration Building, Room A 204. The office provides guidance on off-campus housing, roommate matching, and other housing resources.",
+    "tags": ["student housing", "off-campus housing", "roommate", "resources"],
+    "context": "The Division of Student Affairs at The City College of New York (CCNY) offers information and resources for students seeking housing options. The office provides guidance on off-campus housing, roommate matching, and other housing-related resources to help students find safe and affordable living arrangements.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the campus map at The City College of New York (CCNY)?",
+    "answer": "The campus map is available on the CCNY website under the 'Campus Map' section or at the Office of Student Life in the NAC building, Room 1/214.",
+    "tags": ["campus map", "directions", "navigation"],
+    "context": "The campus map at The City College of New York (CCNY) provides detailed information about building locations, pathways, and key facilities. It helps students navigate the campus and find their way to various offices and services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I get information about internships and job opportunities at The City College of New York (CCNY)?",
+    "answer": "Information about internships and job opportunities is available at the Career and Professional Development Institute (CPDI), located in the NAC building, Room 1/116.",
+    "tags": ["internships", "job opportunities", "career services"],
+    "context": "The Career and Professional Development Institute (CPDI) at The City College of New York (CCNY) provides resources and support for finding internships and job opportunities. The office offers resume workshops, career counseling, and job search assistance.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the major academic departments at The City College of New York (CCNY)?",
+    "answer": "Major academic departments at CCNY include the School of Engineering, the Division of Science, the School of Education, the Division of Interdisciplinary Studies, and the School of Architecture, among others.",
+    "tags": ["academic departments", "schools", "divisions"],
+    "context": "CCNY comprises several major academic departments and schools, each offering specialized programs and courses in fields such as engineering, science, education, architecture, and interdisciplinary studies.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are some notable alumni of The City College of New York (CCNY)?",
+    "answer": "Notable alumni of CCNY include Nobel laureates, prominent scientists, politicians, and leaders such as Jonas Salk, the developer of the polio vaccine; Ruth Bader Ginsburg, U.S. Supreme Court Justice; and Colin Powell, former U.S. Secretary of State.",
+    "tags": ["alumni", "notable figures", "success stories"],
+    "context": "CCNY has a distinguished list of alumni who have made significant contributions in various fields, including medicine, law, politics, and science, highlighting the college's impact and prestige.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What campus facilities are available at The City College of New York (CCNY)?",
+    "answer": "Campus facilities at CCNY include the Cohen Library, state-of-the-art laboratories, athletic fields, student centers, residence halls, and various dining options.",
+    "tags": ["campus facilities", "buildings", "amenities"],
+    "context": "CCNY offers a range of facilities to support academic, recreational, and social activities, including modern laboratories, libraries, athletic fields, and student centers to enhance the campus experience.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the major events and traditions at The City College of New York (CCNY)?",
+    "answer": "Major events and traditions at CCNY include the annual CCNY Gala, homecoming events, convocation ceremonies, and various cultural and academic festivals that celebrate the college's diverse community.",
+    "tags": ["events", "traditions", "campus life"],
+    "context": "CCNY hosts a variety of annual events and traditions that foster school spirit, celebrate academic achievements, and engage the campus community in cultural and social activities.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I get involved in research opportunities at The City College of New York (CCNY)?",
+    "answer": "Research opportunities at CCNY can be explored through academic departments, faculty research projects, and the Office of Undergraduate Research. Students can contact their department or faculty advisor to learn more about available research programs.",
+    "tags": ["research", "undergraduate research", "opportunities"],
+    "context": "CCNY offers numerous research opportunities through various departments and faculty-led projects. Students are encouraged to engage with their academic advisors or the Office of Undergraduate Research to find and participate in research programs.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the academic calendar dates for The City College of New York (CCNY)?",
+    "answer": "The academic calendar at CCNY includes important dates such as the start and end of each semester, holidays, and exam periods. The complete calendar is available on the CCNY website under the 'Academic Calendar' section.",
+    "tags": ["academic calendar", "semester dates", "important dates"],
+    "context": "The academic calendar at CCNY outlines key dates for the academic year, including semester start and end dates, holidays, and exam schedules. Students can access the calendar on the CCNY website to stay informed about important deadlines and events.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Who is the current president of The City College of New York (CCNY)?",
+    "answer": "As of now, the current president of CCNY is Vincent Boudreau.",
+    "tags": ["president", "current leader"],
+    "context": "Vincent Boudreau has been serving as the president of CCNY since December 4, 2017. He plays a crucial role in leading the college and representing it in various capacities.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find affordable housing options for students at The City College of New York (CCNY)?",
+    "answer": "CCNY offers on-campus housing in the dormitories, and students can also find affordable housing options through local rental listings and student housing resources in the surrounding area.",
+    "tags": ["housing", "student needs", "affordable housing"],
+    "context": "CCNY provides on-campus housing options for students. For additional affordable housing, students can explore local rental listings and housing resources available in the neighborhood.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is the mission of the Counseling Center at The City College of New York (CCNY)?",
+    "answer": "To provide high-quality counseling services that are accessible to all City College students.",
+    "tags": ["mission", "vision", "purpose"],
+    "context": "In line with City College's vision of access to excellence, it is the mission of the Counseling Center to provide high-quality counseling services that are accessible to all City College students. The center offers short-term, student-centered, and culturally informed psychological services from a modern and integrative theoretical orientation, treating all students with respect and recognition of their unique strengths. They also serve as a liaison to the community, linking students to more intensive and longer-term services when needed.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does the Counseling Center at The City College of New York (CCNY) provide?",
+    "answer": "Individual counseling, crisis intervention, group counseling, consultation, referral, and workshops. All services are free and confidential.",
+    "tags": ["services", "counseling", "mental health"],
+    "context": "The Counseling Center at CCNY provides a range of services including individual counseling, crisis intervention, group counseling, consultation, referral, and workshops. All services offered by the center are free and confidential, ensuring that students have access to the support they need without financial barriers.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can CCNY students make an appointment with the Counseling Center?",
+    "answer": "Students can email counseling@ccny.cuny.edu, call (212) 650-8222, or stop by the office in Marshak J15.",
+    "tags": ["appointment", "contact", "services"],
+    "context": "If you are a CCNY student and would like to contact the Counseling Center for services, you can do so by emailing counseling@ccny.cuny.edu, calling (212) 650-8222, or stopping by the office in Marshak J15. Email is checked by a counselor during normal business hours, and including your phone number in the email will expedite the process of setting up an appointment.",
+    "school": "CCNY"
+  },
+  {
+    "question": "When might counseling be helpful for CCNY students?",
+    "answer": "Counseling can be helpful for a wide range of concerns, including enhancing relationships, managing stress, improving academic performance, coping with loss, and addressing mental health issues like depression and anxiety.",
+    "tags": ["counseling", "mental health", "support"],
+    "context": "Counseling provides students with a safe, confidential, and nonjudgmental space to voice their concerns. It can be helpful for enhancing relationships, managing stress, improving academic performance, coping with loss, overcoming loneliness, reducing anxiety, and addressing other personal challenges. The Counseling Center at CCNY offers short-term counseling and can assist students in connecting with longer-term services if needed.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What should a CCNY student do in case of a crisis?",
+    "answer": "Students can text CUNY to 741741 for the Crisis Text Line or call 988 for the Suicide and Crisis Lifeline, both available 24/7.",
+    "tags": ["crisis", "emergency", "support"],
+    "context": "In case of a crisis, CCNY students can immediately connect with a Crisis Counselor via SMS by texting CUNY to 741741, which is a free and confidential service available 24/7. Alternatively, they can call the 988 Suicide and Crisis Lifeline for immediate and confidential support for any mental health concern, also available 24/7.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is the Counseling Center at The City College of New York (CCNY) located?",
+    "answer": "Marshak Science Building, Room J-15, 160 Convent Avenue, New York, NY 10031.",
+    "tags": ["location", "address", "counseling center"],
+    "context": "The Counseling Center at CCNY is located in the Marshak Science Building, Room J-15, at 160 Convent Avenue, New York, NY 10031. The center is easily accessible to students and provides a range of mental health services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the hours of operation for the Counseling Center at CCNY?",
+    "answer": "Monday to Friday, 9:00 am – 5:00 pm. Walk-in hours are Monday to Friday, 1:00 pm – 3:00 pm.",
+    "tags": ["hours", "operation", "services"],
+    "context": "The Counseling Center at CCNY operates from Monday to Friday, 9:00 am – 5:00 pm, with walk-in hours from 1:00 pm – 3:00 pm. Students can visit during these times for appointments or walk-in services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can faculty and staff refer a student to the Counseling Center at CCNY?",
+    "answer": "Faculty and staff can refer a student by calling (212) 650-8222 or emailing counseling@ccny.cuny.edu.",
+    "tags": ["referral", "faculty", "staff"],
+    "context": "Faculty and staff at CCNY can refer students to the Counseling Center by contacting the center via phone at (212) 650-8222 or by emailing counseling@ccny.cuny.edu. The center provides consultations and support for students in need of mental health services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is Benny's Food Pantry at The City College of New York (CCNY)?",
+    "answer": "Benny's Food Pantry is a food assistance program at CCNY, providing resources to the CUNY community since 2017.",
+    "tags": ["food pantry", "resources", "food assistance", "CCNY"],
+    "context": "Benny's Food Pantry was first launched in 2017 in a small office space within the Colin Powell School. It was inspired by the UCLA Food Pantry and has since moved to a larger space in the Hoffman Lounge area of the North Academic Complex (NAC). The pantry was renamed 'Benny's' in 2019 to align with the college's mission to 'open the doors to all.'",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are the hours of operation for Benny's Food Pantry at The City College of New York (CCNY)?",
+    "answer": "Benny's Food Pantry is open Monday - Friday, 10 AM - 4 PM.",
+    "tags": ["hours", "operation", "food pantry", "resources"],
+    "context": "Benny's Food Pantry operates Monday through Friday from 10 AM to 4 PM. Starting January 29, 2024, access to the pantry will be by appointment only, which can be scheduled through the pantry's appointment system.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I make an appointment to visit Benny's Food Pantry at CCNY?",
+    "answer": "You can schedule an appointment via Benny's Food Pantry Appointment System.",
+    "tags": ["appointment", "access", "food pantry", "resources"],
+    "context": "Starting January 29, 2024, Benny's Food Pantry will require appointments for access. Appointments can be made online through the pantry's appointment system. If the pantry doors are closed, contact the public safety officer at the NAC building entrance for assistance.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What are The Urban Gardens at The City College of New York (CCNY)?",
+    "answer": "The Urban Gardens at CCNY are a resource and teaching space associated with Benny's Food Pantry, opened in 2019.",
+    "tags": ["urban gardens", "resources", "teaching space", "CCNY"],
+    "context": "The Urban Gardens at CCNY were established in 2019 through the support of the Foundation for City College and the Moxie Foundation. The gardens serve as a resource for Benny's Food Pantry and are cared for by the community in partnership with various CCNY offices and initiatives. The gardens are part of a broader effort to combat food insecurity on campus.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where can I find the CCNY Immunization Record Form?",
+    "answer": "The CCNY Immunization Record Form is available online.",
+    "tags": ["immunization", "record form", "health", "CCNY"],
+    "context": "The CCNY Immunization Record Form can be downloaded from the official CCNY website. [Download the form here](https://www.ccny.cuny.edu/sites/default/files/Immunization%20Record.pdf).",
+    "school": "CCNY"
+  },
+  {
+    "question": "What should I do if I experience COVID-19 symptoms as a CCNY student?",
+    "answer": "Contact your medical provider or call 311 for guidance if you experience COVID-19 symptoms.",
+    "tags": ["COVID-19", "symptoms", "health", "CCNY"],
+    "context": "Students experiencing symptoms related to the coronavirus are encouraged to reach out to their medical provider or call 311 for instructions. Additional information can be found on the [CDC's website](https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html) or the [New York City Health website](https://www1.nyc.gov/site/doh/health/health-topics/coronavirus.page).",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does the Student Health Services (SHS) provide at CCNY?",
+    "answer": "SHS provides free and confidential clinical services to all currently enrolled CCNY students.",
+    "tags": ["health services", "student health", "CCNY"],
+    "context": "Student Health Services (SHS) at CCNY is committed to providing quality care and empowering students to make informed health decisions. Services provided by Registered Nurses are free and confidential. SHS is part of Health and Wellness Services in the Division of Student Affairs, offering assistance with health issues, health insurance enrollment, immunization requirements, and referrals.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I find a vaccination site in New York State?",
+    "answer": "You can find a NYS vaccination site through the online portal.",
+    "tags": ["vaccination", "NYS", "COVID-19", "health"],
+    "context": "For assistance in finding a New York State vaccination site, students can visit the NYS online portal at [Am I Eligible](https://am-i-eligible.covid19vaccine.health.ny.gov/).",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can I contact CCNY Student Health Services?",
+    "answer": "You can contact Student Health Services via phone or email.",
+    "tags": ["contact", "health services", "CCNY"],
+    "context": "To speak to a nurse at CCNY's Student Health Services, call 212.650.8222 or email shs@ccny.cuny.edu. The Health and Wellness Office is open Monday to Friday, 9 am - 5 pm, offering limited services.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What is Palladia, Inc - 126th St Shelter?",
+    "answer": "Palladia, Inc - 126th St Shelter provides temporary emergency shelter and various support services.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Palladia, Inc, located at 35 W 126th St, New York, NY 10027, serves nearly 2000 clients per day through 31 distinct programs. They offer a wide range of services including homelessness prevention, emergency shelter, residential substance abuse treatment, and permanent supportive housing. Palladia is designed to assist individuals and families in need, including CCNY students facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is Palladia, Inc - 126th St Shelter located?",
+    "answer": "Palladia, Inc - 126th St Shelter is located at 35 W 126th St, New York, NY 10027.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "Palladia, Inc - 126th St Shelter is located at 35 W 126th St, New York, NY 10027. This shelter is part of Palladia's extensive network of programs designed to assist individuals and families in need, including those facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can Palladia, Inc help CCNY students facing housing insecurity?",
+    "answer": "Palladia, Inc offers emergency shelter and a range of support services for individuals facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Palladia, Inc provides a variety of services to help those in crisis, including CCNY students facing housing insecurity. They offer temporary emergency shelter, homelessness prevention, substance abuse treatment, and permanent supportive housing, among other services. Their goal is to support individuals and families in need and help them overcome housing challenges.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does The Bowery Mission - Tribeca Campus provide?",
+    "answer": "The Bowery Mission - Tribeca Campus offers safe overnight shelter, daily meals, showers, clothing, case management, and referrals for medical and mental health care.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "The Bowery Mission - Tribeca Campus, located at 90 Lafayette St, New York City, NY 10002, provides a safe, clean shelter for men and women each night. They offer daily meals, showers, clothing, clinical case management, and referrals to medical and mental health care. Intake occurs daily at 3 p.m. for women and 4 p.m. for men. Guests may stay for up to 7 days. These services are designed to assist individuals, including CCNY students, facing housing insecurity or homelessness.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is The Bowery Mission - Tribeca Campus located?",
+    "answer": "The Bowery Mission - Tribeca Campus is located at 90 Lafayette St, New York City, NY 10002.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "The Bowery Mission - Tribeca Campus is located at 90 Lafayette St, New York City, NY 10002. This campus offers safe, clean overnight shelter, along with daily meals, showers, clothing, and referrals to necessary services for individuals, including CCNY students, facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can The Bowery Mission - Tribeca Campus help CCNY students facing housing insecurity?",
+    "answer": "The Bowery Mission - Tribeca Campus provides emergency shelter and essential services for those facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "For CCNY students facing housing insecurity, The Bowery Mission - Tribeca Campus offers a range of services including safe overnight shelter, daily meals, showers, clothing, and referrals to medical and mental health care. They also provide intake for long-term programming. Guests can stay for up to 7 days, with intake at 3 p.m. for women and 4 p.m. for men. Walk-ins are welcome, or you can call (212) 226-6214 for more information.",
+    "school": "CCNY"
+  },
+  {
+    "question": "What services does Mainchance Drop-In Center provide?",
+    "answer": "Mainchance Drop-In Center offers emergency overnight shelter, housing assistance, medical services, social work, and three daily meals.",
+    "tags": ["shelter", "housing insecurity", "homelessness", "CCNY"],
+    "context": "Mainchance Drop-In Center, operated by Grand Central Neighborhood Social Services Corporation, is located at 120 East 32nd Street, New York, NY 10016. Open 24/7, 365 days a year, it provides emergency overnight shelter, housing assistance, medical services, social work, and three daily meals. The center also offers a bus service to a faith-based overnight bed program. As one of the city's largest drop-in centers, it serves individuals from various ages, backgrounds, and cultures, providing a refuge from the streets in a supportive environment.",
+    "school": "CCNY"
+  },
+  {
+    "question": "Where is Mainchance Drop-In Center located?",
+    "answer": "Mainchance Drop-In Center is located at 120 East 32nd Street, New York, NY 10016.",
+    "tags": ["location", "shelter", "housing insecurity", "CCNY"],
+    "context": "Mainchance Drop-In Center is located at 120 East 32nd Street, New York, NY 10016. Open 24 hours a day, 365 days a year, this center provides a range of services including emergency shelter, meals, and social work support to individuals, including CCNY students, facing housing insecurity.",
+    "school": "CCNY"
+  },
+  {
+    "question": "How can Mainchance Drop-In Center help CCNY students facing housing insecurity?",
+    "answer": "Mainchance Drop-In Center offers shelter, meals, and social services to assist those facing housing insecurity.",
+    "tags": ["support services", "housing insecurity", "homelessness", "CCNY"],
+    "context": "For CCNY students facing housing insecurity, Mainchance Drop-In Center provides emergency overnight shelter, daily meals, housing assistance, medical services, and social work support. The center is open 24/7, offering a refuge from the streets in a protective and welcoming environment. The center also facilitates a bus service to a faith-based overnight bed program. For more information, contact (212) 883-0680.",
+    "school": "CCNY"
   }
+
 ]
