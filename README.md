@@ -11,6 +11,8 @@ Made by Daniel, Jair, Ahmad, and Kazi
 </a>
 
 
+[Try out the App here](https://ctp-hackathon-24.vercel.app/)
+
 ## 🚀 Inspiration
 
 CUNY students often struggle to find and access campus resources. We were inspired to create a solution that makes essential information easily accessible to all students, regardless of their campus or background.
