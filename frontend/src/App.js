@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import ChatbotPage from "./components/ChatbotPage";
 import ChatbotOpenAIPage from "./components/ChatbotOpenAIPage";
+import MapPage from "./components/MapPage";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/chat" element={<ChatbotPage />} />
             <Route path="/chat-openai" element={<ChatbotOpenAIPage />} />
+            <Route path="/map" element={<MapPage />} />
           </Routes>
         </Box>
       </Router>
