@@ -18,3 +18,9 @@ npm i
 npm start
 Local: http://localhost:3000
 ```
+
+## RAG Workflow
+
+![RAG Workflow Diagram](/docs/rag.png)
+
+## File Structure

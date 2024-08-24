@@ -1,0 +1,11 @@
+graph TD
+    subgraph RAG Workflow
+        A[User Asks Question] --> B[Question Embedded]
+        B --> C[Vector Search in MongoDB]
+        C --> D[Fetches Relevant Context]
+        D --> E[Inject Context into GPT-4o mini]
+        E --> F[Generate Cohesive Response]
+        F --> G[Return Response to User]
+    end
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2pxd
