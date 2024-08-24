@@ -21,6 +21,7 @@ import {
   FormLabel,
   Textarea,
   useDisclosure,
+  useToast,
 } from "@chakra-ui/react";
 import axios from "axios";
 import TypingText from "./TypingText";
@@ -33,6 +34,7 @@ function ChatbotOpenAIPage() {
   const location = useLocation();
   const selectedSchool = location.state?.school || "CUNY";
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const toast = useToast();
 
   // Color mode values
   const bgColor = useColorModeValue("gray.900", "gray.900");
@@ -69,12 +71,15 @@ function ChatbotOpenAIPage() {
         const botResponse = response.data || "No response";
         setMessages((prevMessages) => [
           ...prevMessages,
-          { text: botResponse, sender: "bot" },
+          { 
+            text: botResponse, 
+            sender: "bot",
+            showFeedbackButton: botResponse.includes("I'm sorry, I don't have that specific information.")
+          },
         ]);
 
         if (botResponse.includes("I'm sorry, I don't have that specific information.")) {
           setFeedbackQuestion(input);
-          onOpen();
         }
       } catch (error) {
         console.error("Error sending message:", error);
@@ -108,8 +113,22 @@ function ChatbotOpenAIPage() {
         school: selectedSchool,
       });
       onClose();
+      toast({
+        title: "Question submitted successfully ✅",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+        position: "top",
+      });
     } catch (error) {
       console.error("Error submitting feedback:", error);
+      toast({
+        title: "Failed to submit question",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+        position: "top",
+      });
     }
   };
 
@@ -150,9 +169,8 @@ function ChatbotOpenAIPage() {
           {messages.map((message, index) => (
             <Flex
               key={index}
-              justifyContent={
-                message.sender === "user" ? "flex-end" : "flex-start"
-              }
+              direction="column"
+              alignItems={message.sender === "user" ? "flex-end" : "flex-start"}
               mb={4}
             >
               <Box
@@ -170,6 +188,19 @@ function ChatbotOpenAIPage() {
                   </Text>
                 )}
               </Box>
+              {message.showFeedbackButton && (
+                <Button
+                  size="sm"
+                  colorScheme="blue"
+                  mt={2}
+                  onClick={() => {
+                    setFeedbackQuestion(messages[messages.length - 2].text);
+                    onOpen();
+                  }}
+                >
+                  Let us know
+                </Button>
+              )}
             </Flex>
           ))}
         </Box>
