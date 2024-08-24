@@ -24,6 +24,8 @@ We developed CUNY Guide using the following technologies:
 - **Web Scraping Tools**: To collect data from CCNY's official websites.
 - **Data Cleaning and Processing Scripts**: To prepare the scraped information for our system.
 
+- ![image](https://github.com/user-attachments/assets/ed513458-5520-4d5d-9d7c-814776efd3cd)
+
 ## ⚠️ Challenges We Ran Into
 
 - Implementing RAG technology to provide accurate, campus-specific information.
@@ -53,4 +55,3 @@ We developed CUNY Guide using the following technologies:
 - Creating mobile apps for iOS and Android for easier access.
 - Partnering with CUNY administration to integrate official resources and updates.
 - Enhancing our RAG system to better handle diverse queries.
-
