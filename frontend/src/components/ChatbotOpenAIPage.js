@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom"; // Add this import
+import { useLocation } from "react-router-dom";
 import {
   Box,
   Button,
@@ -10,6 +10,17 @@ import {
   Heading,
   useColorModeValue,
   useBreakpointValue,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  FormControl,
+  FormLabel,
+  Textarea,
+  useDisclosure,
 } from "@chakra-ui/react";
 import axios from "axios";
 import TypingText from "./TypingText";
@@ -18,8 +29,10 @@ function ChatbotOpenAIPage() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [feedbackQuestion, setFeedbackQuestion] = useState("");
   const location = useLocation();
   const selectedSchool = location.state?.school || "CUNY";
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   // Color mode values
   const bgColor = useColorModeValue("gray.900", "gray.900");
@@ -53,10 +66,16 @@ function ChatbotOpenAIPage() {
           school: selectedSchool,
         });
 
+        const botResponse = response.data || "No response";
         setMessages((prevMessages) => [
           ...prevMessages,
-          { text: response.data || "No response", sender: "bot" },
+          { text: botResponse, sender: "bot" },
         ]);
+
+        if (botResponse.includes("I'm sorry, I don't have that specific information.")) {
+          setFeedbackQuestion(input);
+          onOpen();
+        }
       } catch (error) {
         console.error("Error sending message:", error);
         setMessages((prevMessages) => [
@@ -79,6 +98,19 @@ function ChatbotOpenAIPage() {
         sender: "bot",
       },
     ]);
+  };
+
+  const handleFeedbackSubmit = async (details) => {
+    try {
+      await axios.post("/api/feedback/submit-feedback", {
+        question: feedbackQuestion,
+        details,
+        school: selectedSchool,
+      });
+      onClose();
+    } catch (error) {
+      console.error("Error submitting feedback:", error);
+    }
   };
 
   const displayValue = useBreakpointValue({ base: "none", md: "flex" });
@@ -166,7 +198,49 @@ function ChatbotOpenAIPage() {
           </Flex>
         </Box>
       </Box>
+      <FeedbackModal
+        isOpen={isOpen}
+        onClose={onClose}
+        onSubmit={handleFeedbackSubmit}
+      />
     </Flex>
+  );
+}
+
+function FeedbackModal({ isOpen, onClose, onSubmit }) {
+  const [details, setDetails] = useState("");
+
+  const handleSubmit = () => {
+    onSubmit(details);
+    setDetails("");
+  };
+
+  return (
+    <Modal isOpen={isOpen} onClose={onClose}>
+      <ModalOverlay />
+      <ModalContent>
+        <ModalHeader>Let Us Know</ModalHeader>
+        <ModalCloseButton />
+        <ModalBody>
+          <FormControl>
+            <FormLabel>Submit New Questions</FormLabel>
+            <Textarea
+              value={details}
+              onChange={(e) => setDetails(e.target.value)}
+              placeholder="Please provide any additional information or context for your question..."
+            />
+          </FormControl>
+        </ModalBody>
+        <ModalFooter>
+          <Button colorScheme="blue" mr={3} onClick={handleSubmit}>
+            Submit
+          </Button>
+          <Button variant="ghost" onClick={onClose}>
+            Cancel
+          </Button>
+        </ModalFooter>
+      </ModalContent>
+    </Modal>
   );
 }
 
