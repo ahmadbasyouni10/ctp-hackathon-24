@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
-import ChatbotPage from "./components/ChatbotPage";
 import ChatbotOpenAIPage from "./components/ChatbotOpenAIPage";
 
 function App() {
@@ -36,8 +35,7 @@ function App() {
           </Flex>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/chat" element={<ChatbotPage />} />
-            <Route path="/chat-openai" element={<ChatbotOpenAIPage />} />
+            <Route path="/chat" element={<ChatbotOpenAIPage />} />
           </Routes>
         </Box>
       </Router>

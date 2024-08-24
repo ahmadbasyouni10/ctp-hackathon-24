@@ -1,7 +1,25 @@
-import React, { useState } from 'react';
-import { Box, Button, Heading, VStack, Text, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
-import Slideshow from './Slideshow';
+import React, { useState } from "react";
+import {
+  Box,
+  Button,
+  Heading,
+  VStack,
+  Text,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
+  FormControl,
+  FormLabel,
+  Input,
+  Textarea,
+} from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
+import Slideshow from "./Slideshow";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -30,7 +48,7 @@ function LandingPage() {
           <Button
             colorScheme="blue"
             size="lg"
-            onClick={() => navigate('/chat/openai', { state: { school: 'CCNY' } })}
+            onClick={() => navigate("/chat", { state: { school: "CCNY" } })}
           >
             Start CCNY Guide
           </Button>

@@ -45,7 +45,7 @@ function ChatbotOpenAIPage() {
       setInput("");
 
       try {
-        const response = await axios.post("/api/chat-openai", {
+        const response = await axios.post("/api/chat", {
           messages: [...messages, userMessage].map((m) => ({
             role: m.sender === "user" ? "user" : "assistant",
             content: m.text,
