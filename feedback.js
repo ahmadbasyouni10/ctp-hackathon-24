@@ -1,7 +1,10 @@
-const express = require('express');
+import express from 'express';
+import { MongoClient } from 'mongodb';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 const router = express.Router();
-const { MongoClient } = require('mongodb');
-require('dotenv').config();
 
 const uri = process.env.MONGO_URI;
 
@@ -36,4 +39,4 @@ router.post('/submit-feedback', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
